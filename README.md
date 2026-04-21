@@ -12,9 +12,11 @@
 项目使用 Maven 构建，当前模块坐标为：
 
 ```xml
-<groupId>io.github.kongweiguang</groupId>
-<artifactId>kong-core</artifactId>
-<version>0.6</version>
+<dependency>
+    <groupId>io.github.kongweiguang</groupId>
+    <artifactId>kong-core</artifactId>
+    <version>0.6</version>
+</dependency>
 ```
 
 在父工程中运行测试：
