@@ -6,9 +6,47 @@
     <parent>
         <groupId>io.github.kongweiguang</groupId>
         <artifactId>kong</artifactId>
-        <version>1.0</version>
+        <version>1.1</version>
     </parent>
 
     <artifactId>kong-core</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+
+    <!-- 1. 项目基本信息 -->
+    <name>kong-core</name>
+    <description>kong-core 是一组轻量级 Java 工具和模式封装</description>
+    <url>https://github.com/kongweiguang/kong-core</url>
+
+    <!-- 2. 开源许可声明 -->
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <!-- 3. 开发者信息 -->
+    <developers>
+        <developer>
+            <name>kongweiguang</name>
+            <email>240524885@qq.com</email>
+            <organization>https://github.com/kongweiguang</organization>
+            <organizationUrl>https://github.com/kongweiguang</organizationUrl>
+        </developer>
+    </developers>
+
+    <!-- 4. 源码控制信息 -->
+    <scm>
+        <connection>scm:git:https://github.com</connection>
+        <developerConnection>scm:git:ssh://github.com:kongweiguang/kong-core.git</developerConnection>
+        <url>https://github.com/kongweiguang/kong-core</url>
+    </scm>
 
 </project>
