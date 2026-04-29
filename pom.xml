@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.github.kongweiguang</groupId>
         <artifactId>kong</artifactId>
-        <version>0.6</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>kong-core</artifactId>
