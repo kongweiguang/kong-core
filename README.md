@@ -13,9 +13,9 @@
 
 ```xml
 <dependency>
-    <groupId>io.github.kongweiguang</groupId>
+    <groupId>io.github.kongweiguang.v1</groupId>
     <artifactId>kong-core</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 </dependency>
 ```
 
@@ -25,7 +25,10 @@
 mvn -pl kong-core test
 ```
 
-如果只在 `kong-core` 模块目录下运行，需要确保父 POM `io.github.kongweiguang:kong:0.6` 已经可以被 Maven 解析。
+如果只在 `kong-core` 模块目录下运行，需要确保父 POM `io.github.kongweiguang:kong:1.1` 已经可以被 Maven 解析。
+
+1.x 使用独立的 Maven groupId 和 Java 包命名空间，因此可以和
+`io.github.kongweiguang:kong-core:0.x` 同时引入。
 
 ## 1. Opt：处理值、空值和错误
 
